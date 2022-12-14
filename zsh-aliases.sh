@@ -1,0 +1,6 @@
+alias learning="cd ~/Learning"
+alias projects="cd ~/Learning/Projects"
+alias grep="grep --color"
+alias gst="git status"
+alias glo="git log --oneline"
+alias gpush="git pull && git push"
