@@ -1,0 +1,15 @@
+[user]
+	name = Nitin Sharma
+	email = 48169425+nitinsharmacs@users.noreply.github.com
+[core]
+	pager = less
+	editor = nano
+[init]
+	defaultBranch = main
+[alias]
+    lg = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+[include]
+	path = ~/.gitconfig-personal
+[includeIf "gitdir:/Users/nitinsharma/TW-Projects/"]
+	path = ~/.gitconfig-work
+
